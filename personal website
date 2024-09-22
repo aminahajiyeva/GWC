@@ -1,0 +1,58 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>Amina Hajiyeva</title>
+    <meta charset="utf-8" />
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	  <!-- link the webpage's stylesheet -->
+	  <link rel="stylesheet" href="/style.css" />
+
+	  <!-- link the webpage's JavaScript file -->
+	  <script src="/script.js" defer></script>
+
+  </head>
+
+
+ <nav>
+    <ul>
+      <li><a href="index.html"> Home </a></li>
+      <li><a href="portfolio.html"> Portfolio </a></li>
+      <li><a href="aboutme.html"> About Me </a></li>
+      <li><a href="contact.html"> Contact </a></li>
+    </ul>
+  </nav>
+
+   <body class = "home"> <body>
+
+<header>
+    <img src="assets/pfp"
+      alt="A light pink rolls roycle car"/>
+  <h1>Amina Hajiyeva</h1>
+</header>
+  
+<aside>
+  <img src="assets/Solomon and Lusia"
+    alt="A gray and white cat sit on a chair together looking out the window"/>
+</aside>
+
+<main>
+  <p id = "intro">This is a website that includes a page about me, my portfolio as well as a contact page.</p>
+</main>
+
+<a class = "button">
+  <a href="portfolio.html">
+      <button>Portfolio</button>
+    </a> 
+<a class = "button">  
+    <a href="aboutme.html">
+      <button>About Me</button>
+    </a> 
+ <a class = "button"> 
+    <a href="contact.html">
+      <button>Contact</button>
+    </a> 
+ 
+ </html>
