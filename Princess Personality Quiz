@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Personality Quiz Starter Code</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- import the webpage's stylesheet -->
+	<link rel="stylesheet" href="/style.css">
+
+	<!-- import the webpage's javascript file -->
+	<script src="/script.js" defer>
+
+	</script>
+</head>
+
+<body>
+
+	<header>
+		<h1>Which Disney Princess Are You?</h1>
+		<p>Please select one of the two options in each question to view which princess you are.</p>
+	</header>
+
+	<main>
+
+		<h2>Dogs or Cats?</h2>
+		<div class="question">
+
+			<div class="answer-choice">
+				<img src="assets/dog.png" alt="A golden retriever running in the field with a flower in its mouth">
+        <br>
+        <button id="q1a1">Dog</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/Cats.JPG" alt="Two cats sitting on a chair looking out the window">
+        <br>
+        <button id="q1a2">Cat</button>
+      </div>
+
+    </div> 
+    
+    <h2>Which Season Do You Prefer?</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img src="assets/winter.png" alt="A herd of white sheep standing in the snow">
+         <br>
+        <button id="q2a1">Winter</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/summer.png" alt="Purple and pink flowers in a field under the sun">
+        <br>
+        <button id="q2a2">Summer</button>
+      </div>
+
+    </div> 
+    
+    <h2>Which one are you?</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img src="assets/material.png"a chanel store">
+        <br>
+        <button id="q3a1">A Material Gworl💅</button>
+      </div>
+
+      <div class="answer-choice">
+       <img src="assets/family.png" alt="a family of swans swimming in a lake">
+        <br>
+        <button id="q3a2">Prioritize Others First</button>
+      </div>
+
+    </div> 
+    
+    <h2 id="result">Your result is... </h2>
+
+    <img id="img" src="">
+    <br>
+    <br>
+    <br>
+        
+  </main>
+  </body>
+</html>
